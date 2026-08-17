@@ -1,4 +1,5 @@
-CREATE DATABASE prueba_cinepolis_david;
+-- Ejecutar este script conectado a la base prueba_cinepolis_david.
+-- La creación de la base se realiza por separado; consulta el README raíz.
 
 CREATE TABLE cinemas (
 id_cine INT PRIMARY KEY,
