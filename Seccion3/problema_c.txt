@@ -1,0 +1,17 @@
+¿Cuál es la diferencia? 
+Explica brevemente (2-3 oraciones cada una) la diferencia entre: 
+
+1. GET vs POST 
+    GET verbo http usado solo para obtener recursos.
+    POST se usa para enviar informacion al server ya sea para crear recursos o realizar operaciones
+
+2. Status code 400 vs 422 vs 500 
+    Los status 4xx son errores del cliente, un 400 representa una peticion mal formulada, un 422 es algo mas orientado al negocio para informar que algun
+    dato nu cumplio alguna validacion esperada.
+    Un 5xx simplemente son errores inesperados que pasan en el servidor 
+
+
+3. Path param (/movies/{id}) vs query param (/movies?format=IMAX) 
+    Path params identifica un registro unico, ya sea para ser consultado o para realizar alguna accion sobre el.
+    Query se usa para crear filtros de busqueda mas concretos o para paginacion y ordenamientos. 
+    
